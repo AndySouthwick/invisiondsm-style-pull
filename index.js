@@ -2,11 +2,11 @@ const rp = require('request-promise');
 const fs = require('fs');
 const dataArray = [
   {"url": "https://projects.invisionapp.com/dsm-export/usana-dsm/usana-design-system/_style-params.scss?key=Sye_KlJfCf",
-    "file": "node_modules/invision-dsm-style-renderer/style-params.scss"},
+    "file": "node_modules/invision-design-tokens/style-params.scss"},
   {"url": "https://projects.invisionapp.com/dsm-export/usana-dsm/usana-design-system/style-params.less?key=Sye_KlJfCf",
-    "file": "node_modules/invision-dsm-style-renderer/style-params.less"},
+    "file": "node_modules/invision-design-tokens/style-params.less"},
   {"url": "https://projects.invisionapp.com/dsm-export/usana-dsm/usana-design-system/style-params.styl?key=Sye_KlJfCf",
-    "file": "node_modules/invision-dsm-style-renderer/style-params.styl"},
+    "file": "node_modules/invision-design-tokens/style-params.styl"},
 ]
  module.exports.renderStyles = async () => {
   await dataArray.map(async data => {
