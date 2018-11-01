@@ -1,6 +1,6 @@
 {
   "name": "invision-dsm-style-renderer",
-  "version": "0.0.3",
+  "version": "0.0.0",
   "description": "Grab the latest design tokens from the usana pando.design",
   "main": "index.js",
   "scripts": {
