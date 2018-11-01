@@ -1,11 +1,11 @@
 const rp = require('request-promise');
 const fs = require('fs');
 const dataArray = [
-  {"url": "<YOUR SCSS URL GOES HERE>",
+  {"url": "https://projects.invisionapp.com/dsm-export/usana-dsm/usana-design-system/_style-params.scss?key=Sye_KlJfCf",
     "file": "node_modules/usanadesigntokens/style-params.scss"},
-  {"url": "<YOUR LESS URL GOES HERE>",
+  {"url": "https://projects.invisionapp.com/dsm-export/usana-dsm/usana-design-system/style-params.less?key=Sye_KlJfCf",
     "file": "node_modules/usanadesigntokens/style-params.less"},
-  {"url": "<YOUR STYLUS URL GOES HERE>",
+  {"url": "https://projects.invisionapp.com/dsm-export/usana-dsm/usana-design-system/style-params.styl?key=Sye_KlJfCf",
     "file": "node_modules/usanadesigntokens/style-params.styl"},
 ]
 // module.exports.renderStyles = () => {

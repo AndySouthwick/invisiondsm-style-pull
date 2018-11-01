@@ -1,6 +1,6 @@
 # Get the latest design tokens from USANA's Design System
 
-run npm i usanadesigntokens.
+run npm i usanadesigntokens
 
 make sure to npm install concurrently and add the script to your scripts in your package.json
 
