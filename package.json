@@ -1,6 +1,6 @@
 {
   "name": "invision-design-tokens",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Grab the latest design tokens from the usana pando.design",
   "main": "index.js",
   "scripts": {
