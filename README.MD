@@ -1,4 +1,4 @@
-#Get the latest design tokens from USANA's Design System
+# Get the latest design tokens from USANA's Design System
 
 run npm i usanadesigntokens.
 
@@ -9,7 +9,7 @@ for angular change your start script to look like this
 `"start": "concurrently \"ng serve\" \"node node_modules/usanadesigntokens/index.js\"",`
   
 this will pull the latest from the design system.
-you can then use your favorite css preprocess sass less or stylus in your css
+you can then use your favorite css preprocess sass less or stylus
 by using:
  
  scss: `@import usanadesigntokens/style-params.less`
