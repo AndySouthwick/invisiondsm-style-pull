@@ -11,12 +11,10 @@ const dataArray = [
  module.exports.renderStyles = async () => {
   await dataArray.map(async data => {
     const e = await rp(data.url)
-        console.log(String(e))
         let options = {encoding: 'UTF8'};
         let writeStream = fs.createWriteStream(data.location, options);
         writeStream.write(String(e))
         writeStream.on('finish', () => {
-          console.log('wrote all data to file')
         })
   })
 }
