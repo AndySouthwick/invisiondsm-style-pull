@@ -6,7 +6,7 @@ const dataArray = [
   {"url": "<YOUR LESS URL GOES HERE>",
     "location": "<WHERE YOU WANT YOUR LESS TO GO>/style-params.less"},
   {"url": "<YOUR STYLUS URL GOES HERE>",
-    "location": "<WHERE YOU WANT YOUR SCSS TO GO>/style-params.styl"},
+    "location": "<WHERE YOU WANT YOUR STYLUS TO GO>/style-params.styl"},
 ]
  module.exports.renderStyles = async () => {
   await dataArray.map(async data => {
