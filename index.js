@@ -2,11 +2,11 @@ const rp = require('request-promise');
 const fs = require('fs');
 const dataArray = [
   {"url": "<YOUR SCSS URL GOES HERE>",
-    "location": "style-params.scss"},
+    "location": "<WHERE YOU WANT YOUR SCSS TO GO>/style-params.scss"},
   {"url": "<YOUR LESS URL GOES HERE>",
-    "location": "style-params.less"},
+    "location": "<WHERE YOU WANT YOUR LESS TO GO>/style-params.less"},
   {"url": "<YOUR STYLUS URL GOES HERE>",
-    "location": "style-params.styl"},
+    "location": "<WHERE YOU WANT YOUR SCSS TO GO>/style-params.styl"},
 ]
  module.exports.renderStyles = async () => {
   await dataArray.map(async data => {
